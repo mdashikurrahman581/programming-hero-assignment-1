@@ -3,8 +3,8 @@
     background-image: url(../assets/Hero-bg.png);
     background-size: cover;
     background-position: center;
-    width: 1440;
-    height: 652;
+    max-width: 1440;
+    max-height: 652;
 }
 
 .banner-contents{
