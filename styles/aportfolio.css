@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+.font-style{
+    font-family: Azeret Mono;
+}
 /*Banner styles*/
 .banner-container{
     background-image: url(../assets/Hero-bg.png);
@@ -18,6 +22,7 @@
 }
 
 .banner-title{
+    font-family: Azeret Mono;
     font-size: 48px;
     font-weight:800;
     color: rgba(13, 19, 33, 1);
@@ -29,6 +34,7 @@
 }
 
 .banner-description{
+    font-family: Azeret Mono;
     font-size: 18px;
     font-weight:400;
     color: rgba(13, 19, 33, 1);
@@ -36,7 +42,8 @@
     text-align: center;
 }
 .banner-btn{
-    width: 244px;
+    font-family: Azeret Mono;
+    width: 250px;
     height: 65px;
     border-radius: 8px;
     background-color: rgba(13, 19, 33, 1);
@@ -276,4 +283,95 @@ margin-top: 24px;
     border-radius:16px ;
     padding: 40px;
     
+}
+
+/* I need support styles */
+
+.support-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    background-image: url(../assets/handshake.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 313px;
+    padding: 64px 48px 64px 48px ;
+    margin: 150px 150px 80px 150px;
+    border-radius: 16px;
+
+    
+}
+.support-title{
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 16px;
+}
+
+.support-description{
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 24px;
+}
+section input[type="text"]{
+box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+background: rgb(255, 255, 255);
+padding: 19px 20px 19px 20px;
+width: 550px;
+height: 57px;
+margin-right: 16px;
+
+}
+section input[type="submit"]{
+
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+padding: 17px 20px 17px 20px;
+border-radius: 8px;
+border: none;
+}
+
+/* footer  */
+footer{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.footer-container{
+padding: 32px 150px 32px 150px;
+
+}
+
+.footer-contact{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-title{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+}
+.footer-icon img{
+    margin-left: 24px;
 }
