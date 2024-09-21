@@ -53,12 +53,13 @@
 
 .web-development-container{
     
-    max-width: 946;
-    max-height: 1233;
+    max-width: 1140px;
+    max-height: 1393px;
     margin: 85px 150px 85px 150px;
-    padding: 80px 97px;
+    padding: 80px 97px 80px 97px;
     background: rgba(13, 19, 33, 0.02);
     border-radius: 16px;
+   
 
 }
 .web-development-title{
@@ -87,6 +88,8 @@ margin-bottom: 48px;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    max-width: 946px;
+    max-height: 336px;
     padding: 48px 48px;
     background-color: rgba(255, 255, 255, 1); 
     border-radius: 16px;
@@ -130,12 +133,58 @@ letter-spacing: 0%;
 text-align: center;
 padding: 12px 20px;
 background-color: rgba(255, 255, 255, 1);
+cursor: pointer;
 }
 
 .content-image img{
 width: 259.56px;
 height: 217.01px;
 
-/* width: 206px;
-height: 187px; */
+}
+
+/* Inspiration styles  */
+.inspiration-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inspiration-title{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+margin-top: 90px;
+margin-bottom: 24px;
+}
+.inspiration-description{
+    width: 1140px;
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 48px;
+}
+.inspiration-video{
+    width: 1140px; 
+    height:614px ;
+    padding: 32px 32px 32px 32px;
+    /* margin: 85px 150px 85px 150px; */
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    margin-bottom: 150px;
+    
+}
+.inspiration-video-border-radius{
+    border-radius: 16px;
+    overflow: hidden; /* Ensures the video content doesn't overflow outside the rounded corners */
+    
+
 }
