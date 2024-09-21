@@ -350,10 +350,11 @@ border: none;
 
 /* footer  */
 footer{
-    max-width: 1440px;
+    /* max-width: 1440px; */
     margin: 0 auto;
     background-color:rgba(13, 19, 33, 0.03);
     border-radius: 16px;
+    background-size: cover;
 }
 
 .footer-container{
